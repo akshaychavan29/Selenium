@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[logging done, entering into pin page]]>
+    </line>
+    <line>
+      <![CDATA[entering into home page]]>
+    </line>
+    <line>
+      <![CDATA[Tc is passed, validation is done]]>
+    </line>
+    <line>
+      <![CDATA[logging out from app]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-05T20:02:43 IST" name="Default suite" finished-at="2022-08-05T20:02:54 IST" duration-ms="10593">
+    <groups>
+    </groups>
+    <test started-at="2022-08-05T20:02:43 IST" name="Default test" finished-at="2022-08-05T20:02:54 IST" duration-ms="10593">
+      <class name="kitetTESTNG.ValidateKiteUserIDNew">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:kitetTESTNG.ValidateKiteUserIDNew@4a883b15]" started-at="2022-08-05T20:02:43 IST" name="launchBrowser" finished-at="2022-08-05T20:02:50 IST" duration-ms="6119" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToKiteApp()[pri:0, instance:kitetTESTNG.ValidateKiteUserIDNew@4a883b15]" started-at="2022-08-05T20:02:50 IST" name="loginToKiteApp" finished-at="2022-08-05T20:02:50 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logging done, entering into pin page]]>
+            </line>
+            <line>
+              <![CDATA[entering into home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToKiteApp -->
+        <test-method signature="kiteUserValidation()[pri:0, instance:kitetTESTNG.ValidateKiteUserIDNew@4a883b15]" started-at="2022-08-05T20:02:50 IST" name="kiteUserValidation" finished-at="2022-08-05T20:02:52 IST" duration-ms="1883" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Tc is passed, validation is done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- kiteUserValidation -->
+        <test-method is-config="true" signature="logoutToKiteApp()[pri:0, instance:kitetTESTNG.ValidateKiteUserIDNew@4a883b15]" started-at="2022-08-05T20:02:52 IST" name="logoutToKiteApp" finished-at="2022-08-05T20:02:54 IST" duration-ms="1365" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logging out from app]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutToKiteApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:kitetTESTNG.ValidateKiteUserIDNew@4a883b15]" started-at="2022-08-05T20:02:54 IST" name="closeBrowser" finished-at="2022-08-05T20:02:54 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- kitetTESTNG.ValidateKiteUserIDNew -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
